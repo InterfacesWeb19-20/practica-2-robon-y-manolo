@@ -17,13 +17,13 @@
 					<a href=""><img src = "../Imagenes/reino-unido.png" alt = "banderaRei" class = "Bandera"></a>
 				</div>
 			
-				<img src = "../Imagenes/logo.png" class = "Logotipo" alt = "logo">
+				<img src = "../Imagenes/logo.png" class = "Logotipo" alt = "logo ca">
 				<h1>Academia DIW</h1>
 			</div>
 		
 		<nav >
 			<ul id = "nav">
-				<li><a href = "../Práctica1.html">Inicio</a></li>
+				<li><a href = "../index.html">Inicio</a></li>
 				<li><a href = "ESO.html">ESO</a>
 					<ul>
 						<li><a href = "PrimeroESO.html">1ºESO</a></li>
@@ -54,40 +54,38 @@
 		</header>
 		
 		<main>
-		
-				<div id="consulta">
-					<h3>Consulta Offline</h3>
-						
-						<p>Consulte a través del teléfono de contacto: 965 65 87 21</p>
-						<p>Dirección de la tienda:</p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d25033.81581212526!2d-0.5390225!3d38.3437283!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0xd623643fbfd498b%3A0x6e6e66186a3858c4!2sCalle+Santa+Maria+Mazzarelo%2C+03007+Alicante!3m2!1d38.342166399999996!2d-0.5024586999999999!5e0!3m2!1ses!2ses!4v1543352345752" allowfullscreen></iframe>
-				</div>
-				
-				<form id="formulario1" action="Formulariored.html" method="post" enctype="text/plain" accept-charset="utf-8">
-
+			<div id="consulta">
+				<h3>Consulta Offline</h3>
+					<p>Consulte a través del teléfono de contacto: 965 65 87 21</p>
+					<p>Dirección de la tienda:</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d25033.81581212526!2d-0.5390225!3d38.3437283!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0xd623643fbfd498b%3A0x6e6e66186a3858c4!2sCalle+Santa+Maria+Mazzarelo%2C+03007+Alicante!3m2!1d38.342166399999996!2d-0.5024586999999999!5e0!3m2!1ses!2ses!4v1543352345752" allowfullscreen></iframe>
+			</div>
+			<form id="formulario1" action="Formulariored.html" method="post" enctype="text/plain" accept-charset="utf-8">
 				<h3>Datos</h3>
+				<label>Introduce tu nombre</label>
 				<input type="text" name="usuario" placeholder="Nombre"> <br><br>
+				<label>Introduce tu email</label>
 				<input type="email" name="correo" placeholder="Correo electronico"> <br><br>			
-				Curso al que quiere ingresar:<br><br> <select name="elegir-categoria">
-						
-								<option value="1ºESO" selected>1ºESO</option>
-								<option value="2ºESO" >2ºESO</option>
-								<option value="3ºESO" >3ºESO</option>
-								<option value="4ºESO" >4ºESO</option>
-								<option value="1ºBach" >1ºBach</option>
-								<option value="2ºBach" >2ºBach</option>
-								<option value="Medio" >Grado Medio</option>
-								<option value="Superior" >Grado Superior</option>
-																		
-							  </select>
-							  <p>Introduzca su sexo:<div id="genero"><input type="radio" name="genero" value="m" checked> Masculino
-								<input type="radio" name="genero" value="f"> Femenino <br></div>
-							  <br><br>
-					
+				<label>Curso al que quiere ingresar:</label><br><br> 
+				<select name="elegir-categoria">
+					<option value="1ºESO" selected>1ºESO</option>
+					<option value="2ºESO" >2ºESO</option>
+					<option value="3ºESO" >3ºESO</option>
+					<option value="4ºESO" >4ºESO</option>
+					<option value="1ºBach" >1ºBach</option>
+					<option value="2ºBach" >2ºBach</option>
+					<option value="Medio" >Grado Medio</option>
+					<option value="Superior" >Grado Superior</option>
+				</select>
+				<p><label style="display:inherit;">Introduzca su sexo:</label>
+					<div id="genero"><input type="radio" name="genero" value="m" checked><label style="display:inline;">Masculino</label><input type="radio" name="genero" value="f"><label style="display:inline;">Femenino</label>  <br>
+					</div>
+				</p>
+				<br><br>
 				<h3>Mensaje</h3>
-					<input type="text" name="usuario" placeholder="Asunto del Mensaje">		
-		
-				
+					<label>Asunto del mensaje:</label><br>
+					<input type="text" name="usuario" placeholder="Asunto del Mensaje">	
+					<label>Mensaje:</label><br>
 				<textarea rows="6" cols="60" id="texto" placeholder="Mensaje"></textarea>
 				<br>
 				

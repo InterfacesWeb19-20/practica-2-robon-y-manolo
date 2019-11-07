@@ -76,3 +76,6 @@ iframe{
 	font-weight:200;
 	margin-bottom:10px;
 }
+label{
+	display: none;
+}

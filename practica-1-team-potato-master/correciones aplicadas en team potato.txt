@@ -1,0 +1,15 @@
+Seguimiento errores
+-pagina principal, cambio de nombre a index
+-enlaces del menu dirigian a Práctica1.html en vez de a index.html (todas las paginas)
+-logo de cabecera mal vinculado en todas las paginas(nombre del logo incorrecto)
+-problema con nombres genericos alt de fotos en todas las paginas (contenido general)
+-problemas de contraste
+-los saltos de h1 a h3 se omiten ya que es un salto de estetica
+
+1º 2º bachillerato
+-seccion de contenido doble margen en el div impidiendo que el contenido de la galeria se muestre deonde debe
+
+Contactos
+-ausencia de labels en el formulario de contacto para los input
+-tabulaciones al azar¿?
+-parrafo no cerrado
