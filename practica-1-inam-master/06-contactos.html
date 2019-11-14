@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Academia DIW</title>
+	<meta charset="UTF-8">
+	<!-- <meta name="author" content=""/>miembros del grupo -->
+	<meta name="description" content="Academia de formacion en diversos ambitos"/>
+	<meta name="keywords" content="HTML,CSS"/>
+	<meta name=”viewport” content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="Imagenes/logotipo.png" />
+	<link rel="stylesheet" type="text/css" href="contacto.css">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+	<body>
+		<header>
+			<div id="headleft">
+				<img src="imagenes/logotipo2.png" alt="logotipo academia"/>
+			</div>
+			<div id="headcenter">
+				<h1>Academia de estudios DIW</h1>
+				<h2>Educación Secundaria - Ciclos Formativos - Estudios Universitarios</h2>					
+			</div>	
+			<div id="headright">
+				<div id="flagone">
+					<img  id="imgesp" src="imagenes/logoesp.png" alt="logoespaña"/>
+				</div>
+				<div id="flagtwo">
+					<a href=""><img class="icoIdiomas" src="imagenes/Aleman.ico" alt="Aleman"/></a>
+					<a href=""><img class="icoIdiomas" src="imagenes/Español.ico" alt="Español"/></a>
+					<a href=""><img class="icoIdiomas" src="imagenes/Ingles.ico" alt="Ingles"/></a>
+				</div>					
+			</div>					
+        </header>			
+		<nav>
+			<div id="navegacion">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li class="submenu"><a>ESO</a>
+					<ul class="children">
+						<li><a href="02-eso-1.html">1º</a></li> 
+						<li><a href="02-eso-2.html">2º</a></li>
+						<li><a href="02-eso-3.html">3º</a></li>
+						<li><a href="02-eso-4.html">4º</a></li>               
+					</ul>
+				</li>
+				<li><a href="#">BACHILLERATO</a>
+					<ul class="children" >
+						<li><a href="03-bachillerato-1.html">1º</a></li>
+						<li><a href="03-bachillerato-2.html">2º</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Ciclos</a>
+					<ul class="children" id="largos">
+						<li><a href="04.3-ciclos-pruebasaccesogradomedio.html">Pruebas de acceso de grado medio</a></li>
+						<li><a href="04.4-ciclos-pruebasdegradosuperior.html">Pruebas de acceso de grado superior</a></li>
+						<li><a href="04.2-ciclos-administracion.html">Administración</a></li>
+						<li><a href="04.1-ciclos-informatica.html">Informática</a></li>               
+					</ul>
+				</li>
+				<li>
+					<a href="05-universidad.html">Universidad</a>
+				</li>
+				<li>
+					<a href="06-contactos.html">Contacto</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		<section>
+			<article>
+				<fieldset name="formulario">
+					<fieldset id="menu">
+						<legend><label id="Nuestra_ubicación">NUESTRA UBICACIÓN:</label></legend>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25016.322759124498!2d-0.49777199534154426!3d38.394316197671515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62372e77468537%3A0x2b634a211f18c73e!2sVillafranqueza%2C%20Alicante%20(Alacant)%2C%20Alicante!5e0!3m2!1ses!2ses!4v1569940897170!5m2!1ses!2ses" allowfullscreen=""></iframe>
+						<fieldset id="registrate">
+							<legend><label id="REGISTRATE">REGISTRATE:</label></legend>
+								<fieldset class="datos">
+									<legend><label id="Datos_personales">Datos personales:</label></legend>
+									<form>
+										<label id="Nombre"> Nombre:</label> <input type="text" name="nombre" value =""><br><br>
+										<label id="Apellidos"> Apellidos:</label> <input type="text" name="apellidos" value =""><br><br>
+										<label id="Telefono">Telefono:</label> <input type="text" name="telefono" value ="" maxlength="9"><br><br>
+										<label id="Email">Email:</label> <input type="email" name="user_email" value="">
+									</form>
+								</fieldset>
+								<fieldset class="datos">
+									<legend><label id="curso">Curso:</label></legend>
+									<form>
+										<input type="radio" name="ESO"><label id="eso">ESO</label> <select name="Eso"> <option value="1 ESO">1 ESO</option> <option value="2 ESO">2 ESO</option> <option value="3 ESO">3 ESO</option> <option value="4 ESO">4 ESO</option> </select> <br><br>
+										<input type="radio" name="BACHILLERATO"><label id="bachillerato">BACHILLERATO</label> <select name="Bachillerato"> <option value="1 Bachillerato">1 Bachillerato</option> <option value="2 Bachillerato">2 Bachillerato</option> </select> <br> <br>
+										<input type="radio" name="CICLO FORMATIVO"><label id="ciclo_formativo">CICLO FORMATIVO</label> <select name="Ciclo formativo"> <option value="Grado medio">Grado medio</option> <option value="Grado superior">Grado superior</option> </select> <br> <br>
+										<input type="radio" name="PRUEBA DE ACCESO"><label id="prueba_acceso">PRUEBA DE ACCESO</label> <select name="Prueba de acceso"> <option value="Grado medio">Grado medio</option> <option value="Grado superior">Grado superior</option> </select> <br> <br>
+										<input type="radio" name="Universidad"> <label id="universidad">UNIVERSIDAD</label>
+									</form>
+								</fieldset>
+						</fieldset>	
+					</fieldset>
+				</fieldset>
+			</article>
+		</section>
+		<footer>
+			<div class="logo">
+				<img id="logotipo" src="Imagenes/logotipo.png" alt="logotipo"/> 
+			</div> 
+			<div class="global">
+				<div class="capas">
+					<h4>MAPA DEL SITIO</h4>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><hr></li>
+						<li><a href="06-contactos.html">Contacto</a></li>
+						<li><hr></li>
+						<li><a href="">Sobre nosotros</a></li>
+					</ul>
+				</div>
+				<div class="capas">
+					<h4>CURSOS</h4>
+					<ul>
+						<li>ESO</li>
+						<li>BACHILLERATO</li>
+						<li>FORMACIÓN PROFESIONAL</li>
+						<li>PRUEBA DE ACCESO</li>
+					</ul>
+				</div>
+				<div class="capas">
+					<h4>SIGUENOS EN REDES</h4>
+					<ul>
+						<li><img class="imgfooter" src="Imagenes/instagram.png" alt="instagram"/>  @AcademiaDIW</li>
+						<li><img class="imgfooter" src="Imagenes/skype.png" alt="skype"/>    Academia DIW</li>
+						<li><img class="imgfooter" src="Imagenes/twitter(1).png" alt="twitter"/>   Academia DIW(@academia-diw)</li>
+					</ul>
+				</div>
+				<div class="capas">
+					<h4>CONTACTA CON NOSOTROS</h4>
+					<ul>
+						<li>Academia DIW: Alumnos brillantes</li>
+						<li>Calle Alfonso El Sabio 35,5 03011 Alicante</li>
+						<li>Telefono: 650127891</li>
+						<li>Correo: DIW@academiadiw.es</li>
+					</ul>
+				</div>
+			</div>
+        </footer>
+	</body>
+</html>
